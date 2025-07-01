@@ -1,4 +1,5 @@
 package org.examples.bookMyShow.seat;
 
-public class SeatStatus {
+public enum SeatStatus {
+    AVAILABLE ,BOOKED,
 }

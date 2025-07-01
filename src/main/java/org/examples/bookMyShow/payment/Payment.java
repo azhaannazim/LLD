@@ -1,4 +1,4 @@
-package org.examples.hotel.payment;
+package org.examples.bookMyShow.payment;
 
 //strategy pattern
 public interface Payment {
