@@ -1,6 +1,6 @@
-package org.examples.DesignPatterns.abstractFactory;
+package org.examples.DesignPatterns.abstractFactory.feature;
 
-public class MacButton implements Button{
+public class MacButton implements Button {
     @Override
     public void paint() {
         System.out.println("Mac button paint");

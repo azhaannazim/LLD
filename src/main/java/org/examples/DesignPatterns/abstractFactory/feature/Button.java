@@ -1,4 +1,4 @@
-package org.examples.DesignPatterns.abstractFactory;
+package org.examples.DesignPatterns.abstractFactory.feature;
 
 public interface Button {
     void paint();

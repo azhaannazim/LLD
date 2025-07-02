@@ -1,6 +1,6 @@
-package org.examples.DesignPatterns.abstractFactory;
+package org.examples.DesignPatterns.abstractFactory.feature;
 
-public class WindowsCheckBox implements CheckBox{
+public class WindowsCheckBox implements CheckBox {
     @Override
     public void paint() {
         System.out.println("window checkbox paint");
