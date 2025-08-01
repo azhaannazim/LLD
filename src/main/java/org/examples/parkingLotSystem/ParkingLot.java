@@ -29,7 +29,7 @@ public class ParkingLot {
 
     public void setFeeStrategy (FeeStrategy feeStrategy) { //strategy method
         this.feeStrategy = feeStrategy;
-    }
+    } //strategy
 
     public synchronized Ticket parkVehicle(Vehicle vehicle) throws Exception {
         for (ParkingFloor floor : floors) {

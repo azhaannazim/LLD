@@ -9,6 +9,7 @@ public class Ticket {
     private final String ticketId;
     private final Vehicle vehicle;
     private final ParkingSpot parkingSpot;
+
     private final long entryTime;
     private long exitTime;
 

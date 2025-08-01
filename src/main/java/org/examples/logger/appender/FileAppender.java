@@ -6,7 +6,7 @@ import org.examples.logger.formatter.LogFormatter;
 import java.io.FileWriter;
 
 public class FileAppender implements LogAppender{
-    private final LogFormatter formatter; //factory method
+    private final LogFormatter formatter;
     private FileWriter fileWriter;
 
     public FileAppender(String filePath ,LogFormatter formatter) {

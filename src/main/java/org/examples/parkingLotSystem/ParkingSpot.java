@@ -20,6 +20,7 @@ public class ParkingSpot {
     public synchronized boolean isAvailable() {
         return !isOccupied;
     }
+
     public synchronized boolean park(Vehicle vehicle){
         if(isOccupied || vehicle.getType() != type){
             return false;

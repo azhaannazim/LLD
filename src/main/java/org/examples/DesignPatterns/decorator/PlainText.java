@@ -1,7 +1,7 @@
 package org.examples.DesignPatterns.decorator;
 
 public class PlainText implements TextView {
-    private String text;
+    private final String text;
 
     public PlainText(String text) {
         this.text = text;
