@@ -14,11 +14,11 @@ public class TokenBucket {
         this.tokens = capacity; //start full
         lastRefillTime = Instant.now();
     }
-    synchronized boolean allowRequest(int required){
+    synchronized boolean allowRequest(){
         refill();
 
-        if(tokens >= required){
-            tokens -= required;
+        if(tokens > 0){
+            tokens--;
             return true;
         }
         

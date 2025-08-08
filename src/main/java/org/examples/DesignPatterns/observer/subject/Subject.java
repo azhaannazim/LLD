@@ -9,8 +9,7 @@ public class Subject implements SubjectInterface {
     private int steps;
     private int activeMinutes;
     private int calories;
-
-    private List<Observer> list = new ArrayList<>();
+    private final List<Observer> list = new ArrayList<>();
 
     @Override
     public void registerObserver(Observer observer) {

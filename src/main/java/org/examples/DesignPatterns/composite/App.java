@@ -1,4 +1,8 @@
-package org.examples.DesignPatterns.composite.items;
+package org.examples.DesignPatterns.composite;
+
+import org.examples.DesignPatterns.composite.items.File;
+import org.examples.DesignPatterns.composite.items.FileSystemItem;
+import org.examples.DesignPatterns.composite.items.Folder;
 
 public class App {
     public static void main(String[] args) {

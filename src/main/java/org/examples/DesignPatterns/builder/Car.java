@@ -1,9 +1,9 @@
 package org.examples.DesignPatterns.builder;
 
 public class Car {
-    private String engine;
-    private int wheels;
-    private boolean sunroof;
+    private final String engine;
+    private final int wheels;
+    private final boolean sunroof;
 
     private Car(Builder builder){
         this.engine = builder.engine;

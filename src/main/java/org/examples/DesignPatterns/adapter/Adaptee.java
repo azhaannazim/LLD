@@ -1,6 +1,6 @@
 package org.examples.DesignPatterns.adapter;
 
-public class Adaptee {
+public class Adaptee{
     public void playVlc(String fileName) {
         System.out.println("Playing VLC file: " + fileName);
     }

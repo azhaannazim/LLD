@@ -1,8 +1,6 @@
 package org.examples.DesignPatterns.decorator;
 
-import org.examples.DesignPatterns.decorator.layers.Bold;
-import org.examples.DesignPatterns.decorator.layers.Italic;
-import org.examples.DesignPatterns.decorator.layers.TextDecorator;
+import org.examples.DesignPatterns.decorator.layers.*;
 
 public class App {
     public static void main(String[] args) {

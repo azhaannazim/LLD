@@ -13,9 +13,6 @@ public class PaymentService {
     }
 
     public void pay(int amount) {
-        if (payment == null) {
-            throw new IllegalStateException("Payment strategy not set.");
-        }
         payment.pay(amount);
     }
 }

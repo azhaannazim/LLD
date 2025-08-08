@@ -1,4 +1,4 @@
-package org.examples.DesignPatterns.decorator;
+package org.examples.DesignPatterns.decorator.layers;
 
 public class PlainText implements TextView {
     private final String text;

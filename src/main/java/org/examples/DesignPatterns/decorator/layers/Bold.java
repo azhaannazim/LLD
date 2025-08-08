@@ -1,7 +1,5 @@
 package org.examples.DesignPatterns.decorator.layers;
 
-import org.examples.DesignPatterns.decorator.TextView;
-
 public class Bold extends TextDecorator {
     public Bold(TextView inner) {
         super(inner);
